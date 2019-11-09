@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="br.com.frcnetto.cryptowallet.ui.home.HomeFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_buy_sell"
+        android:name="br.com.frcnetto.cryptowallet.ui.gallery.GalleryFragment"
+        android:label="@string/menu_buy_sell"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_exchange"
+        android:name="br.com.frcnetto.cryptowallet.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_exchange"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="br.com.frcnetto.cryptowallet.ui.tools.ToolsFragment"
+        android:label="@string/menu_exchange"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="br.com.frcnetto.cryptowallet.ui.share.ShareFragment"
+        android:label="@string/menu_transactions"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="br.com.frcnetto.cryptowallet.ui.send.SendFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_send" />
+</navigation>
