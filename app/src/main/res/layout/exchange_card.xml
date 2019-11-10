@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/exchangeCard"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="0dp"
+    android:layout_height="200dp"
+    android:layout_marginStart="@dimen/nav_header_vertical_spacing"
+    android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+    app:cardCornerRadius="20dp"
+    app:cardPreventCornerOverlap="true"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@id/guideline"
+    app:layout_constraintTop_toBottomOf="@id/userMessage"
+    tools:showIn="@layout/fragment_home">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cardBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gradient_exchange_background"
+            android:contentDescription="@string/wallet_button_content_description" />
+
+        <ImageView
+            android:id="@+id/cardIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="@dimen/icon_card_margin"
+            android:src="@drawable/ic_exchange" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/cardTitle"
+            style="@style/card_title"
+            android:text="@string/exchange"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardIcon" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/cardDescription"
+            style="@style/card_description"
+            android:text="@string/exchange_card_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

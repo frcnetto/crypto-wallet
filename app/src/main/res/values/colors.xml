@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#533ABC</color>
+    <color name="colorPrimaryMiddle">#CC773399</color>
     <color name="colorPrimaryDark">#3D3993</color>
     <color name="colorAccent">#FA7E00</color>
+    <color name="walletLightColor">#7ED6F6</color>
+    <color name="walletDarkColor">#2C72FE</color>
+    <color name="exchangeLightColor">#FBA234</color>
+    <color name="exchangeDarkColor">#F76300</color>
 </resources>

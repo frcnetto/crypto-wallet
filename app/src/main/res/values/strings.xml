@@ -12,4 +12,10 @@
     <string name="menu_exchange">Exchange</string>
     <string name="menu_transactions">Transactions</string>
     <string name="menu_settings">Settings</string>
+    <string name="wallet_button_content_description">Wallet button</string>
+    <string name="exchange_button_content_description">Exchange button</string>
+    <string name="wallet">Wallet</string>
+    <string name="exchange">Exchange</string>
+    <string name="exchange_card_description">You can start using exchange</string>
+    <string name="wallet_card_description">You can start using wallets</string>
 </resources>
